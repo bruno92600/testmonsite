@@ -1,0 +1,27 @@
+.accueil{
+    border: 1px red solid;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.liste {
+    border: 1px red solid;
+}
+.foto {
+    border: 1px red solid;
+    width: 20%;
+    height: 100%;
+    margin-left: 35%;
+}
+ul {
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+   
+}
+li {
+    list-style: none;
+    color: black;
+}
