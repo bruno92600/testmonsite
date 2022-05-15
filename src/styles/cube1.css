@@ -1,0 +1,64 @@
+/* cube */
+:root {
+    --size: 250px;
+}
+
+.cube1 {
+    margin-top: -18%;
+    margin-left: 40%;
+    width: var(--size);
+    height: var(--size);
+    transform-style: preserve-3d;
+   /* transform: rotateY(30deg) rotateZ(30deg); */
+   animation: spin 20s infinite linear;
+}
+
+.side1 {
+    position: absolute;
+    opacity: 0.9;
+    width: var(--size);
+    height: var(--size);
+}
+
+#front1 {
+    background: url(../photo-8/IMG_5279.jpg) no-repeat center/cover;
+    transform: translateZ(calc(var(--size) / 2));
+}
+
+#top1 {
+    background: url(../photo-8/IMG_5212.jpg) no-repeat center/cover;
+    transform: rotateX(-270deg) translateY(calc(-1 * (var(--size) / 2)));
+    transform-origin: top center;
+}
+
+#bottom1 {
+    background: url(../photo-8/IMG_5207.jpg) no-repeat center/cover;
+    transform: rotateX(270deg) translateY(calc(var(--size) / 2));
+    transform-origin: bottom center;
+}
+
+#right1 {
+    background: url(../photo-8/IMG_5230.jpg) no-repeat center/cover;
+    transform: rotateY(-270deg) translateX(calc(var(--size) / 2));
+    transform-origin: top right;
+}
+
+#left1 {
+    background: url(../photo-8/IMG_5296.jpg) no-repeat center/cover;
+    transform: rotateY(270deg) translateX(calc(-1 * (var(--size) / 2)));
+    transform-origin: center left;
+}
+
+#back1 {
+    background: url(../photo-8/IMG_5276.jpg) no-repeat center/cover;
+    transform: rotateY(-180deg) translateZ(calc((var(--size) / 2)));
+}
+
+@keyframes spin {
+    from {
+        transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+    to {
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+}

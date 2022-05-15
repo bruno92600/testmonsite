@@ -7,93 +7,26 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 460px;
+    height: 100px;
 }
 .liste {
     height: 100%;
     margin-top: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    padding-right: 30%;
 }
 
 ul {
     list-style: none;
     font-size: 20px;
     color: black;
-    display: flex;
-    flex-direction: column;
 }
 li {
     list-style: none;
     color: black;
 }
 
-/* cube */
-:root {
-    --size: 250px;
-}
-
-.cube {
-    margin: 6% 43%;
-    width: var(--size);
-    height: var(--size);
-    transform-style: preserve-3d;
-   /* transform: rotateY(30deg) rotateZ(30deg); */
-   animation: spin 20s infinite linear;
-}
-
-.side {
-    position: absolute;
-    opacity: 0.8;
-    width: var(--size);
-    height: var(--size);
-}
-
-#front {
-    background: url(../photo-8/IMG_5012.jpg) no-repeat center/cover;
-    transform: translateZ(calc(var(--size) / 2));
-}
-
-#top {
-    background: url(../photo-8/IMG_5039.jpg) no-repeat center/cover;
-    transform: rotateX(-270deg) translateY(calc(-1 * (var(--size) / 2)));
-    transform-origin: top center;
-}
-
-#bottom {
-    background: url(../photo-8/IMG_5051.jpg) no-repeat center/cover;
-    transform: rotateX(270deg) translateY(calc(var(--size) / 2));
-    transform-origin: bottom center;
-}
-
-#right {
-    background: url(../photo-8/IMG_5098.jpg) no-repeat center/cover;
-    transform: rotateY(-270deg) translateX(calc(var(--size) / 2));
-    transform-origin: top right;
-}
-
-#left {
-    background: url(../photo-8/IMG_5212.jpg) no-repeat center/cover;
-    transform: rotateY(270deg) translateX(calc(-1 * (var(--size) / 2)));
-    transform-origin: center left;
-}
-
-#back {
-    background: url(../photo-8/IMG_5443.jpg) no-repeat center/cover;
-    transform: rotateY(-180deg) translateZ(calc((var(--size) / 2)));
-}
-
-@keyframes spin {
-    from {
-        transform: rotateX(0) rotateY(0) rotateZ(0);
-    }
-    to {
-        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-    }
-}
 
 /* description site */
 .descript
