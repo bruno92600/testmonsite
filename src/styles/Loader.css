@@ -1,0 +1,106 @@
+#loader
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    position: fixed;
+    background-color: black;
+    animation: load 4s linear;
+    animation-fill-mode: forwards;
+    pointer-events: none;
+    z-index: 1;
+}
+@keyframes load 
+{
+    0%{
+        opacity: 1;
+    }
+    80%
+    {
+        opacity: 0.9;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+.wait
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    pointer-events: none;
+    margin-top: 0;
+}
+.nom
+{
+    margin-right: 26%;
+    margin-bottom: 15px;
+}
+.nom1
+{
+    
+}
+.nom2
+{
+    margin-left: 23%;
+    margin-top: 15px;
+}
+.lettre
+{
+    color: yellow;
+    font-family: 'Trebuchet MS', sans-serif;
+    animation: light 4s linear infinite;
+
+}
+@keyframes light {
+    0%
+    {
+        opacity: 0;
+    }
+    10% 
+    {
+        opacity: 0.1;
+    }
+    20%
+    {
+        opacity: 0.2;
+    }
+    30%
+    {
+        opacity: 0.3;
+    }
+    40%
+    {
+        opacity: 0.4;
+    }
+    50%
+    {
+        opacity: 0.5;
+    }
+    60%
+    {
+        opacity: 0.6;
+    }
+    70%
+    {
+        opacity: 0.7;
+    }
+    80%
+    {
+        opacity: 0.8;
+    }
+    90%
+    {
+        opacity: 0.9;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
