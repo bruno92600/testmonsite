@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import foto from "../photo-8/moi.jpg";
 
 const Header = () => {
   return (
@@ -19,8 +18,13 @@ const Header = () => {
             </NavLink>
           </ul>
         </nav>
-        <div className="photo">
-          <img className="foto" src={foto} alt="moi" />
+        <div class="cube">
+          <div class="side" id="front"></div>
+          <div class="side" id="bottom"></div>
+          <div class="side" id="top"></div>
+          <div class="side" id="left"></div>
+          <div class="side" id="right"></div>
+          <div class="side" id="back"></div>
         </div>
       </div>
     </React.Fragment>
