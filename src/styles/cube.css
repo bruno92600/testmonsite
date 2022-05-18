@@ -4,8 +4,6 @@
 }
 
 .cube {
-    margin-top: 6%;
-    margin-left: 10%;
     width: var(--size);
     height: var(--size);
     transform-style: preserve-3d;
