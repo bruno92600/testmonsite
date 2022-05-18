@@ -5,15 +5,19 @@ import Cube2 from "../components/Cube2";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Loader from "../components/Loader";
+import MainHome from "../components/MainHome";
 
 const Home = () => {
   return (
     <div>
       <Loader />
       <Header />
-      <Cube />
-      <Cube1 />
-      <Cube2 />
+      <div id="tourne">
+        <Cube />
+        <Cube1 />
+        <Cube2 />
+      </div>
+      <MainHome />
       <Footer />
     </div>
   );

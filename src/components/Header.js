@@ -6,18 +6,23 @@ const Header = () => {
     <React.Fragment>
       <div className="accueil">
         <nav>
-          <ul className="liste">
+          <div className="liste">
             <NavLink to="/">
-              <li>Accueil</li>
+              <p>Accueil</p>
             </NavLink>
             <NavLink to="/photo">
-              <li>Photo</li>
+              <p>Photo</p>
             </NavLink>
             <NavLink to="/video">
-              <li>Video</li>
+              <p>Video</p>
             </NavLink>
-          </ul>
+          </div>
         </nav>
+        <div className="descript">
+          <h1>Bienvenue dans mon monde</h1>
+          <br />
+          <p>passionné par la photo, le web et bien plus...</p>
+        </div>
       </div>
     </React.Fragment>
   );

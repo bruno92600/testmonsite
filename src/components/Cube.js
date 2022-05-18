@@ -3,7 +3,7 @@ import React from "react";
 const Cube = () => {
   return (
     <React.Fragment>
-      <div id="cubeee">
+      <div id="carre">
         <div class="cube">
           <div class="side" id="front"></div>
           <div class="side" id="bottom"></div>
