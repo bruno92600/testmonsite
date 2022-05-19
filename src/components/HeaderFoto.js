@@ -18,6 +18,11 @@ const HeaderFoto = () => {
             </NavLink>
           </div>
         </nav>
+        <div id="box1">
+          <div className="box">
+            <h1 className="clic">Quelques clichés... 📸</h1>
+          </div>
+        </div>
       </div>
     </React.Fragment>
   );
