@@ -1,5 +1,4 @@
 import React from "react";
-import Cube from "../components/Cube";
 import Cube1 from "../components/Cube1";
 import Cube2 from "../components/Cube2";
 import Footer from "../components/Footer";
@@ -13,7 +12,6 @@ const Home = () => {
       <Loader />
       <Header />
       <div id="tourne">
-        <Cube />
         <Cube1 />
         <Cube2 />
       </div>

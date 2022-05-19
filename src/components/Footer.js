@@ -2,9 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>footer</h1>
-    </div>
+    <React.Fragment>
+      <div className="footer">
+        <a href="mailto:pascoal.goncalves.bruno@gmail.com">
+          <p>contact</p>
+        </a>
+      </div>
+    </React.Fragment>
   );
 };
 

@@ -30,6 +30,8 @@ const MainHome = () => {
           odit amet cum consectetur doloremque ad aliquam explicabo corrupti
           maiores incidunt possimus!
         </p>
+      </div>
+      <div className="photo">
         <img className="fotosite" src={foto} alt="les champs élysées" />
       </div>
     </React.Fragment>

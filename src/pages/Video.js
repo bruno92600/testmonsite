@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../components/Header";
+import HeaderFoto from "../components/HeaderFoto";
 
 const Video = () => {
   return (
     <div>
-      <Header />
+      <HeaderFoto />
     </div>
   );
 };
