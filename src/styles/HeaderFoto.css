@@ -1,0 +1,60 @@
+/* header */
+.accueil1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+}
+.liste1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+
+.clic {
+    color: white;
+}
+
+#box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 175px;
+    background: black;
+    position: relative;
+}
+
+.box::before,
+.box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #ff0000, #00f0f0, #00ff00, #0000ff, #ff0000, #00f0f0, #00ff00, #0000ff, #f00f0f);
+    width: 100%;
+    height: 100%;
+    background-size: 300%;
+    z-index: -1;
+    transform: scale(1.02);
+    animation: animate 20s infinite;
+}
+
+.box::after {
+    filter: blur(20px);
+}
+
+@keyframes animate {
+    0% { background-position: 0 0;}
+    50% { background-position: 150% 0;}
+    100% { background-position: 0 0;}
+}

@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const HeaderFoto = () => {
+const HeaderVideo = () => {
   return (
     <React.Fragment>
-      <div className="accueil1">
+      <div className="accueil3">
         <nav>
-          <div className="liste1">
+          <div className="liste3">
             <NavLink to="/">
               <p>Accueil</p>
             </NavLink>
@@ -18,14 +18,9 @@ const HeaderFoto = () => {
             </NavLink>
           </div>
         </nav>
-        <div id="box1">
-          <div className="box">
-            <h1 className="clic">Quelques clichés... 📸</h1>
-          </div>
-        </div>
       </div>
     </React.Fragment>
   );
 };
 
-export default HeaderFoto;
+export default HeaderVideo;

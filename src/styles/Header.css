@@ -1,0 +1,24 @@
+/* header */
+.accueil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+}
+.liste {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* description site */
+.descript h1{
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.descript p {
+    text-align: center;
+}
