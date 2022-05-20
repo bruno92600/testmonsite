@@ -10,6 +10,9 @@ const Header = () => {
             <NavLink to="/">
               <p>Accueil</p>
             </NavLink>
+            <NavLink to="/CV">
+              <p>Mon cv</p>
+            </NavLink>
             <NavLink to="/photo">
               <p>Photo</p>
             </NavLink>

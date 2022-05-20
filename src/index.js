@@ -13,6 +13,8 @@ import "./styles/HeaderFoto.css";
 import "./styles/Footer.css";
 import "./styles/FooterFoto.css";
 import "./styles/HeaderVideo.css";
+import "./styles/HeaderCV.css";
+import "./App.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);

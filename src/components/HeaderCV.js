@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const HeaderVideo = () => {
+const HeaderCV = () => {
   return (
     <React.Fragment>
-      <div className="accueil3">
+      <div className="accueil4">
         <nav>
-          <div className="liste3">
+          <div className="liste4">
             <NavLink to="/">
               <p>Accueil</p>
             </NavLink>
@@ -26,4 +26,4 @@ const HeaderVideo = () => {
   );
 };
 
-export default HeaderVideo;
+export default HeaderCV;
