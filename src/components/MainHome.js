@@ -1,5 +1,6 @@
 import React from "react";
 import foto from "../photo-8/IMG_3556.jpg";
+import "../styles/MainHome.css";
 
 const MainHome = () => {
   return (

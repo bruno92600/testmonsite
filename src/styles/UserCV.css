@@ -1,0 +1,19 @@
+#use__avatar {
+    width: 16%;
+    height: 27%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user {
+    text-align: center;
+}
+
+.user__infos {
+    text-align: left;
+    padding: var(--spacing-3) 0 var(--spacing-1) 0;
+}
+
+.user__info {
+    margin-left: 1rem;
+}
