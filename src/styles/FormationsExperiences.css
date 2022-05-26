@@ -12,3 +12,6 @@
     color: var(--date-color);
     font-weight: 300;
 }
+.grid_mission {
+    margin-bottom: var(--spacing-1);
+}

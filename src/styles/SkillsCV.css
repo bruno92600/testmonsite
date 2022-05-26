@@ -18,6 +18,14 @@
     background-color: var(--circle-color);
 }
 
+.dark .circle {
+background-color: var(--dark-circle-color);
+}
+
+.dark .circle-plain {
+    background-color: var(--dark-circle-color-plain);
+}
+
 .circle-plain  {
     background-color: var(--circle-color-plain);
 }
