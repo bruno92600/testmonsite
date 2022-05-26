@@ -11,14 +11,14 @@ function UserCV() {
         <p className="user__profession">développeur web</p>
         <div className="user__infos">
           <p className="user__info">
-            63 rue pierre joigneaux 92600 Asnières sur seine
+          🏠  63 rue pierre joigneaux 92600 Asnières sur seine
           </p>
           <p className="user__info">
-            <a href="tel:+0549139979">0649139979</a>
+            <a href="tel:+0549139979">☎️  0649139979</a>
           </p>
           <p className="user__info">
             <a href="mailto:pascoal.goncalves.bruno@gmail.com">
-              pascoal.goncalves.bruno@gmail.com
+            📩  pascoal.goncalves.bruno@gmail.com
             </a>
           </p>
           <p className="user__info">Date de naissance : 23 Mai 1983</p>
