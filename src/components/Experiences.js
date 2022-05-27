@@ -14,9 +14,10 @@ const Experiences = ({ datas }) => {
             <p className="grid__location">{item.location}</p>
             <p className="grid__text">{item.text}</p>
             <ul className="grid_missions">
-              {item.missions.map(mission => (
+              {item.missions.map((mission) => (
                 <li className="grid_mission" key={mission.id}>
-                  {mission.title}</li>
+                  {mission.title}
+                </li>
               ))}
             </ul>
           </div>
