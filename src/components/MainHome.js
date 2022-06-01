@@ -21,15 +21,7 @@ const MainHome = () => {
           sit cupiditate quia voluptas amet reprehenderit aspernatur ipsa
           eveniet consectetur illum veritatis, cum repellendus perferendis,
           nostrum et. Quam vero error, molestias ratione ullam, sequi ducimus
-          porro pariatur asperiores quo beatae ipsa necessitatibus. Beatae
-          aliquam aut possimus. In tenetur non beatae! Sint rerum, unde iste
-          fugiat harum quidem aliquam quas placeat quae voluptatibus quaerat
-          nihil earum porro neque possimus aliquid distinctio. Facilis, eius
-          voluptates accusamus dolores esse debitis cum molestias numquam earum
-          provident consectetur nesciunt sit blanditiis dolore tempora quae
-          veniam porro odit. Cumque, fugit distinctio quam deserunt laboriosam
-          odit amet cum consectetur doloremque ad aliquam explicabo corrupti
-          maiores incidunt possimus!
+          porro pariatur asperiores quo beatae ipsa necessitatibus.
         </p>
       </div>
       <div className="photo">
