@@ -130,7 +130,7 @@ export const dataExperiences = [
     title: "coiffeur/coiffeur co-manager",
     date: "septembre 2001 à Mai 2021",
     location: "Franck Provost, Camille Albane, Dessange, etc...",
-    text: `Plus de 20ans de carrières dans le milieu de la coiffure, dont les dernières années en co-manager et manager. J'ai su acquerir.`,
+    text: `Plus de 20ans de carrières dans le milieu de la coiffure, dont les dernières années en co-manager et manager.`,
     missions: [
       {
         id: 2,
