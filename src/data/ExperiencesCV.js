@@ -25,7 +25,7 @@ export const dataExperiences = [
     title: "Piiquante",
     date: "Mars-Avril 2022",
     location: "0penclassrooms",
-    text: `Ce projet consiste a créer le backend pour une application de critique de sauce piqaunte. La base de donnée est crée avec mongodb.`,
+    text: `Ce projet consiste a créer le backend pour une application de critique de sauce piquante. La base de donnée est crée avec mongodb.`,
     missions: [
       {
         id: 1,

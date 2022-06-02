@@ -123,9 +123,3 @@ li {
 .main {
     padding: 1.5rem;
 }
-
-/* génère le pdf */
-
-#cv-print {
-    width: 100% !important;
-}
