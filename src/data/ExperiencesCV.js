@@ -12,10 +12,6 @@ export const dataExperiences = [
       },
       {
         id: 1,
-        title: "https://github.com/bruno92600/P7_groupomania",
-      },
-      {
-        id: 1,
         title: " Projet validé!",
       },
     ],
@@ -30,10 +26,6 @@ export const dataExperiences = [
       {
         id: 1,
         title: "Backend pour app piiqaunte (projet n°6)",
-      },
-      {
-        id: 1,
-        title: "https://github.com/bruno92600/P7_groupomania",
       },
       {
         id: 1,
@@ -54,10 +46,6 @@ export const dataExperiences = [
       },
       {
         id: 1,
-        title: "https://github.com/bruno92600/P5_js-",
-      },
-      {
-        id: 1,
         title: "Projet validé!",
       },
     ],
@@ -72,10 +60,6 @@ export const dataExperiences = [
       {
         id: 1,
         title: "réseau social groupomania",
-      },
-      {
-        id: 1,
-        title: "https://github.com/bruno92600/P4_lachouetteagence_modifier",
       },
       {
         id: 1,
@@ -96,10 +80,6 @@ export const dataExperiences = [
       },
       {
         id: 1,
-        title: "https://github.com/bruno92600/BrunoPascoalGoncalves_3_22122021",
-      },
-      {
-        id: 1,
         title: "Projet validé!",
       },
     ],
@@ -114,10 +94,6 @@ export const dataExperiences = [
       {
         id: 1,
         title: "Booki",
-      },
-      {
-        id: 1,
-        title: "https://github.com/bruno92600/bookiprojet2",
       },
       {
         id: 1,

@@ -13,6 +13,7 @@ function SkillsCV() {
         <Skill title="JAVASCRIPT" rating="3" />
         <Skill title="REACT" rating="4" />
         <Skill title="NODE.JS" rating="4" />
+        <Skill title="SQL" rating="5" />
       </div>
       <div className="skills">
         <h2 className="h2">Langues</h2>
