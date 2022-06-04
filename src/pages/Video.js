@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderVideo from "../components/HeaderVideo";
+import HeaderCV from "../components/HeaderCV";
 
 const Video = () => {
   return (
     <div>
-      <HeaderVideo />
+      <HeaderCV />
     </div>
   );
 };

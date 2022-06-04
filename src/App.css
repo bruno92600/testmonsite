@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300');
+
 :root {
     /* couleurs */
     --body-bg-color: #FFFFFF;
@@ -93,6 +95,11 @@ li {
     margin: var(--spacing-3);
 }
 
+.App {
+    min-height: 200vh;
+    padding-top: 6rem;
+}
+
 @media screen and (min-width:768px) {
     
 .grid_container {
@@ -102,6 +109,10 @@ li {
 .grid__row {
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+.App {
+    min-height: 200vh;
+    padding-top: 6rem;
 }
 }
 
