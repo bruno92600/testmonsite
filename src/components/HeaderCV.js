@@ -13,7 +13,7 @@ const HeaderCV = () => {
   return (
     <React.Fragment>
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-      <div className="navbar__logo"> logo </div>
+      <div className="navbar__logo"> @PGB </div>
       <ul className="navbar__links">
         <li className="navbar__item slideInDown-1">
           <NavLink to="/" className="navbar__link">
