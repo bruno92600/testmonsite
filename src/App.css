@@ -115,8 +115,8 @@ li {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-.App {
-    min-height: 200vh;
+.App  {
+   
     padding-top: 6rem;
 }
 }

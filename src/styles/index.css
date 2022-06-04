@@ -7,3 +7,13 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@media screen and (max-width:767px) 
+{
+    #tourne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 800px;
+    }
+}

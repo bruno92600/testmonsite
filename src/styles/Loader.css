@@ -10,7 +10,7 @@
     animation: load 2.5s linear;
     animation-fill-mode: forwards;
     pointer-events: none;
-    z-index: 3;
+    z-index: 1;
 }
 @keyframes load 
 {

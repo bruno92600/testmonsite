@@ -2,10 +2,11 @@
     width: 80%;
     text-align: center;
     margin-left: 10%;
+    padding-top: 8rem;
 }
 .photo {
     width: 50%;
-    height: 435px;
+    height: 445px;
     border-radius: 15px;
     overflow: hidden;
     margin-left: 25%;

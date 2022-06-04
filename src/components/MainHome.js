@@ -1,10 +1,12 @@
 import React from "react";
 import foto from "../photo-8/IMG_3556.jpg";
 import "../styles/MainHome.css";
+import "../App.css"
 
 const MainHome = () => {
   return (
     <React.Fragment>
+      <div className="home1">
       <div className="base">
         <p className="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
@@ -26,6 +28,7 @@ const MainHome = () => {
       </div>
       <div className="photo">
         <img className="fotosite" src={foto} alt="les champs élysées" />
+      </div>
       </div>
     </React.Fragment>
   );

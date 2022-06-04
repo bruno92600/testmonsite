@@ -16,6 +16,7 @@ import foto10 from "../photo-8/IMG_5443.jpg";
 import foto11 from "../photo-8/IMG_5562.jpg";
 import foto12 from "../photo-8/IMG_5556.jpg";
 import "../styles/Main.css";
+import "../App.css"
 
 const Main = () => {
   return (
