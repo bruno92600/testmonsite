@@ -48,11 +48,11 @@ const Main = () => {
           <img id="ecole" src={foto11} alt="Mouette volant au dessus de la mer" />
           <img id="ecole" src={foto12} alt="Église à étretat" />
           <img id="ecole" src={foto13} alt="Vu route" />
-          <img id="ecole" src={foto14} alt="Église à étretat" />
-          <img id="ecole" src={foto15} alt="Église à étretat" />
-          <img id="ecole" src={foto16} alt="Église à étretat" />
-          <img id="ecole" src={foto17} alt="Église à étretat" />
-          <img id="ecole" src={foto18} alt="Église à étretat" />
+          <img id="ecole" src={foto14} alt="Ma grand mère au Portugal" />
+          <img id="ecole" src={foto15} alt="Vu sur les azulejos au Portugal" />
+          <img id="ecole" src={foto16} alt="Une voiture en réparation" />
+          <img id="ecole" src={foto17} alt="Une fleur jaune" />
+          <img id="ecole" src={foto18} alt="Vu sur la mer a étretat" />
         </div>
     </React.Fragment>
   );
