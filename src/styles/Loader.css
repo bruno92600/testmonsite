@@ -7,7 +7,7 @@
     position: absolute;
     position: fixed;
     background-color: black;
-    animation: load 2.5s linear;
+    animation: load 0s linear;
     animation-fill-mode: forwards;
     pointer-events: none;
     z-index: 1;

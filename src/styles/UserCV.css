@@ -1,8 +1,7 @@
 #use__avatar {
-    width: 16%;
-    height: 27%;
+    width: 38%;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 48%;
 }
 
 .user {
@@ -17,3 +16,11 @@
 .user__info {
     margin-left: 1rem;
 }
+
+@media screen and (max-width:767px)
+{
+    #use__avatar {
+        width: 20%;
+    }
+}
+    
