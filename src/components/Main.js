@@ -15,6 +15,12 @@ import foto9 from "../photo-8/IMG_5342.jpg";
 import foto10 from "../photo-8/IMG_5443.jpg";
 import foto11 from "../photo-8/IMG_5562.jpg";
 import foto12 from "../photo-8/IMG_5556.jpg";
+import foto13 from "../photo-8/IMG_5009.jpg";
+import foto14 from "../photo-8/IMG_4260.jpg";
+import foto15 from "../photo-8/IMG_5051.jpg";
+import foto16 from "../photo-8/IMG_4330.jpg";
+import foto17 from "../photo-8/IMG_5279.jpg";
+import foto18 from "../photo-8/IMG_5525.jpg";
 import "../styles/Main.css";
 import "../App.css";
 
@@ -41,6 +47,12 @@ const Main = () => {
           <img id="ecole" src={foto10} alt="Cascade d'eau dans le Gérês au Portugal" />
           <img id="ecole" src={foto11} alt="Mouette volant au dessus de la mer" />
           <img id="ecole" src={foto12} alt="Église à étretat" />
+          <img id="ecole" src={foto13} alt="Vu route" />
+          <img id="ecole" src={foto14} alt="Église à étretat" />
+          <img id="ecole" src={foto15} alt="Église à étretat" />
+          <img id="ecole" src={foto16} alt="Église à étretat" />
+          <img id="ecole" src={foto17} alt="Église à étretat" />
+          <img id="ecole" src={foto18} alt="Église à étretat" />
         </div>
     </React.Fragment>
   );
