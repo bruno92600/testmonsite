@@ -1,22 +1,42 @@
-.fotos {
-    background-color: black;
-    padding-top: 7rem;
+.saut {
+    height: 100px;
 }
 
-.quatre {
+.descriptfoto {
+    margin-left: 0;
+    height: 40px;
     display: flex;
-    align-items: center;
-    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
-.titre {
+.descriptfotos {
+    margin-left: 0;
+    height: 50px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: aliceblue;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    margin-top: -25px;
+    background-color: black;
 }
+
+.fotos {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
 
 #ecole {
-    width: 75%;
+    width: 42%;
+    margin-bottom: 40px;
     object-fit: cover;
     border: 2px pink solid;
     box-shadow:8px 8px 10px 0 rgba(219, 188, 188, 0.5);
@@ -24,15 +44,20 @@
      -moz-transition: all 0.5s;
      -ms-transition: all 0.5s;
      -o-transition: all 0.5s;
-     transition: all 0.5s;
+     transition: all 0.6s;
 }
 
 #ecole:hover {
     transform: scale(1.1);
 }
 
-.cinq {
-    display: flex;
-    align-items: center;
-    width: 100%;
+@media screen and (max-width:767px)
+{
+    .fotos {
+        flex-direction: column;
+        align-items: center;
+    }
+    #ecole {
+        width: 85%;
+    }
 }
