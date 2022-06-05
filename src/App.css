@@ -104,6 +104,16 @@ li {
     padding-top: 6rem;
 }
 
+.descriptprofil {
+    text-align: center !important;
+}
+
+.descriptprofils {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #197ea7;
+}
 @media screen and (min-width:768px) {
     
 .grid_container {
@@ -138,3 +148,4 @@ li {
 .main {
     padding: 1.5rem;
 }
+

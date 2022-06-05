@@ -4,7 +4,7 @@ const ProfilCV = () => {
   return (
     <div className="profil mb5">
       <h2 className="h2">DÉVELOPPEUR WEB</h2>
-      <p>
+      <p className="descriptprofil">
         Ayant été coiffeur, co-manager ainsi que manager pendant plus de 20ans,
         j’ai souhaité me reconvertir dans le milieu du web. Toutes ces premières
         expériences de coiffeur, management, m’ont aidé a acquérir énormément de
@@ -22,7 +22,8 @@ const ProfilCV = () => {
         compétences dans le développement web. Je vous laisse le parcourir pour
         que vous puissiez découvrir mon univers.
       </p>
-      <p>N'hésitez pas à me contacter!</p>
+      <br/>
+      <p className="descriptprofils">N'hésitez pas à me contacter!</p>
     </div>
   );
 };
