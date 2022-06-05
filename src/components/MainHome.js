@@ -1,12 +1,12 @@
 import React from "react";
 import foto from "../photo-8/IMG_3556.jpg";
 import "../styles/MainHome.css";
-import "../App.css"
+import "../styles/cube1.css"
+import "../styles/cube2.css"
 
 const MainHome = () => {
   return (
     <React.Fragment>
-      <div className="home1">
       <div className="base">
         <p className="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
@@ -25,11 +25,30 @@ const MainHome = () => {
           nostrum et. Quam vero error, molestias ratione ullam, sequi ducimus
           porro pariatur asperiores quo beatae ipsa necessitatibus.
         </p>
+        <div className="tourne">
+        <div id="carre1">
+        <div class="cube1">
+          <div class="side1" id="front1"></div>
+          <div class="side1" id="bottom1"></div>
+          <div class="side1" id="top1"></div>
+          <div class="side1" id="left1"></div>
+          <div class="side1" id="right1"></div>
+          <div class="side1" id="back1"></div>
+        </div>
       </div>
-      <div className="photo">
+      <div id="carre2">
+        <div class="cube2">
+          <div class="side2" id="front2"></div>
+          <div class="side2" id="bottom2"></div>
+          <div class="side2" id="top2"></div>
+          <div class="side2" id="left2"></div>
+          <div class="side2" id="right2"></div>
+          <div class="side2" id="back2"></div>
+        </div>
+      </div>
+      </div>
         <img className="fotosite" src={foto} alt="les champs élysées" />
-      </div>
-      </div>
+        </div>
     </React.Fragment>
   );
 };

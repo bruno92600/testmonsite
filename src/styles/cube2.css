@@ -57,6 +57,6 @@
         transform: rotateX(0) rotateY(0) rotateZ(0);
     }
     to {
-        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+        transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
     }
 }
