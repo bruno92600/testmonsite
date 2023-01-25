@@ -52,6 +52,17 @@ a {
     color: var(--dark-text-color);
 }
 
+.bouton {
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 6%;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+}
+
 h1 {
     font-size: var(--h1-font-size);
     text-transform: uppercase;
@@ -101,7 +112,10 @@ li {
 }
 
 .App {
-    padding-top: 6rem;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .descriptprofil {
@@ -126,7 +140,10 @@ li {
 }
 .App  {
    
-    padding-top: 6rem;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 }
 

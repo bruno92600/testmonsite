@@ -1,0 +1,76 @@
+.music1 {
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nomsong {
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 4px 4px 5px gray;
+}
+
+#beyonce {
+    margin-top: 17px;
+    width: 45%;
+    object-fit: cover;
+}
+
+.boutonmusic {
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    margin-top: 17px;
+    height: 50px;
+}
+
+.repeatsong {
+    margin-top: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.repeat1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playsong {
+    display: flex;
+    justify-content: center;
+    width: 17%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 5px rgb(156, 171, 156);
+    border-radius: 8px;
+    border-color: rgb(171, 194, 171);
+    background-color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.playsong:hover {
+    transform: scale(0.95);
+    transition: 0.2s ease-in-out;
+    border-color: green;
+    box-shadow: 5px 5px 5px rgb(171, 194, 171);
+}
+
+@media screen and (max-width:768px)
+{
+    #beyonce {
+        width: 60%;
+    }
+
+    .boutonmusic {
+        width: 50%;
+        justify-content: space-between;
+    }
+    .playsong {
+        height: 35px;
+    }
+}

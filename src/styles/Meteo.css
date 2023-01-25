@@ -1,0 +1,128 @@
+.weather {
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(38, 137, 103);
+}
+
+.formulaire {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.getweather {
+    margin-left: 1rem;
+    border: 2px rgb(136, 216, 174) solid;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.getweather:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.datameteo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.displayweather {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.maincard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(20, 98, 167);
+}
+
+.weatherdetails {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.section1, .section2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 236, 236);
+}
+
+.section1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.section2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.descript-meteo, .result-meteo {
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+    color: rgb(20, 98, 167);
+}
+
+@media screen and (max-width:768px) 
+{
+    .formulaire {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .getweather {
+        padding: 10px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .displayweather {
+        width: 100%;
+    }
+
+    .weatherdetails {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .section1, .section2 {
+        width: 100%;
+    }
+
+    .section1 {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .section2 {
+        border-radius: 0;
+    }
+}

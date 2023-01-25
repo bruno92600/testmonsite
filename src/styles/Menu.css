@@ -1,0 +1,21 @@
+.Button {
+    padding: 5% 10%;
+    font-size: 2em;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 60px;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.Button:hover {
+    background-color: rgb(236, 231, 231);
+}
+
+.Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    z-index: 100;
+}

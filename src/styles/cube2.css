@@ -30,13 +30,13 @@
 }
 
 #bottom2 {
-    background: url(../photo-8/IMG_5051.jpg) no-repeat center/cover;
+    background: url(../photo-8/IMG_4770.jpg) no-repeat center/cover;
     transform: rotateX(270deg) translateY(calc(var(--size) / 2));
     transform-origin: bottom center;
 }
 
 #right2 {
-    background: url(../photo-8/IMG_5073.jpg) no-repeat center/cover;
+    background: url(../photo-8/IMG_4943.jpg) no-repeat center/cover;
     transform: rotateY(-270deg) translateX(calc(var(--size) / 2));
     transform-origin: top right;
 }
@@ -48,7 +48,7 @@
 }
 
 #back2 {
-    background: url(../photo-8/IMG_5070.jpg) no-repeat center/cover;
+    background: url(../photo-8/IMG_4751.jpg) no-repeat center/cover;
     transform: rotateY(-180deg) translateZ(calc((var(--size) / 2)));
 }
 

@@ -1,0 +1,11 @@
+.zero {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    background-color: rgb(151, 105, 194);
+    height: 100vh;
+    padding-right: 5%;
+    padding-top: 8rem;
+}

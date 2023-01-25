@@ -35,6 +35,21 @@ const HeaderCV = () => {
             Vidéo
           </NavLink>
         </li>
+        <li className="navbar__item slideInDown-4">
+          <NavLink to="/essaie" className="navbar__link">
+            music
+          </NavLink>
+        </li>
+        <li className="navbar__item slideInDown-4">
+          <NavLink to="/meteo" className="navbar__link">
+            Météo
+          </NavLink>
+        </li>
+        <li className="navbar__item slideInDown-4">
+          <NavLink to="/test" className="navbar__link">
+           test
+          </NavLink>
+        </li>
         <li className="navbar__item slideInDown-5">
           <a href="mailto:pascoal.goncalves.bruno@gmail.com" className="navbar__link">
             Contact
